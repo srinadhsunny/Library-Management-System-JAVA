@@ -44,7 +44,7 @@ public class EditServlet2 extends HttpServlet {
 	    response.setContentType("text/html");
 	    PrintWriter out = response.getWriter();
 	    
-	    // 1. Data Processing Logic
+	  
 	    geekUsers ge = new geekUsers();
 	    ge.setBookname(request.getParameter("name"));
 	    ge.setNumberOfbooks(Integer.parseInt(request.getParameter("numberOfPosts")));
@@ -53,7 +53,7 @@ public class EditServlet2 extends HttpServlet {
 	    
 	    int status = geekUserDao.updateUser(ge);
 
-	    // 2. Styled Output (Minimal and Professional)
+	    
 	    out.println("<html><head><style>");
 	    out.println("body { margin: 0; height: 100vh; display: flex; justify-content: center; align-items: center; " +
 	                "font-family: 'Segoe UI', sans-serif; " +
@@ -88,3 +88,4 @@ public class EditServlet2 extends HttpServlet {
 	}
 
 }
+
