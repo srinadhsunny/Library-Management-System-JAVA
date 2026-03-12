@@ -44,18 +44,18 @@ public class viewServlets extends HttpServlet {
                     "url('https://tse3.mm.bing.net/th/id/OIP.ObImjoIMbB_ydK2bilL2HwHaE7?pid=Api&h=220&P=0'); " +
                     "background-size: cover; background-attachment: fixed; color: white; }");
 
-        // The Glass Frame
+       
         out.println(".container { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); " +
                     "padding: 30px; border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.2); " +
                     "box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5); width: 85%; margin-top: 20px; }");
 
-        // Professional Table Styling
+        
         out.println("table { width: 100%; border-collapse: collapse; margin-top: 15px; }");
         out.println("th { background: #ff9800; color: white; padding: 12px; text-align: left; }");
         out.println("td { padding: 12px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }");
         out.println("tr:hover { background: rgba(255, 255, 255, 0.05); }");
 
-        // Link Buttons
+        
         out.println(".add-link { text-decoration: none; background: #ff9800; color: white; padding: 10px 20px; " +
                     "border-radius: 5px; font-weight: bold; margin-bottom: 10px; display: inline-block; }");
         out.println(".action-link { color: #ff9800; text-decoration: none; margin-right: 10px; font-weight: bold; }");
@@ -78,7 +78,7 @@ public class viewServlets extends HttpServlet {
         }
         
         out.print("</table>");
-        out.println("</div>"); // Close Container
+        out.println("</div>"); 
         out.println("<br><a href='home.jsp' style='color: white; text-decoration: none; font-size: 14px;'>← Back to Home</a>");
         out.println("</body></html>");
         out.close();
@@ -93,3 +93,4 @@ public class viewServlets extends HttpServlet {
 	}
 
 }
+
