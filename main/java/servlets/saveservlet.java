@@ -43,7 +43,7 @@ public class saveservlet extends HttpServlet {
 	        response.setContentType("text/html");
 	        PrintWriter out = response.getWriter();
 	        
-	        // 1. Get parameters (Note: I kept your variable names so your DAO works)
+	       
 	        String name = request.getParameter("name");
 	        int numberOfPosts = Integer.parseInt(request.getParameter("quantity")); // Matched to new JSP name
 	        String techPreferred = request.getParameter("author"); // Matched to new JSP name
@@ -55,7 +55,7 @@ public class saveservlet extends HttpServlet {
 	        
 	        int status = geekUserDao.saveuser(e);
 
-	        // 2. Start Styled Output
+	       
 	        out.println("<html><head><style>");
 	        out.println("body { margin: 0; padding: 0; height: 100vh; display: flex; justify-content: center; align-items: center; " +
 	                    "font-family: 'Segoe UI', sans-serif; " +
@@ -95,3 +95,4 @@ public class saveservlet extends HttpServlet {
 	
 
 }
+
