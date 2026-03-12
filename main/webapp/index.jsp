@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <title>Add New Book</title>
 <style>
-    /* 1. Reuse the same background and flex centering */
+    
     body {
         margin: 0;
         padding: 0;
@@ -21,7 +21,7 @@
         color: white;
     }
 
-    /* 2. The Glass Frame for the Form */
+   
     .form-frame {
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(15px);
@@ -41,7 +41,7 @@
         color: #ff9800; /* Matching the orange theme */
     }
 
-    /* 3. Modernizing the Table and Inputs */
+    
     table {
         width: 100%;
     }
@@ -65,7 +65,7 @@
         background: rgba(255, 255, 255, 0.2);
     }
 
-    /* 4. Button Styles */
+   
     .submit-btn {
         background: #ff9800;
         color: white;
@@ -138,4 +138,5 @@
     </div>
 
 </body>
+
 </html>
