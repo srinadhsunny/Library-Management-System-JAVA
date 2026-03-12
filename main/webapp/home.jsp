@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <title>Library Home</title>
 <style>
-    /* 1. Fix the background zoom and centering */
+   
     body {
         margin: 0;
         padding: 0;
@@ -21,7 +21,7 @@
         background-repeat: no-repeat;
     }
 
-    /* 2. The Center "Picture Frame" Container */
+    
     .dashboard-frame {
         background: rgba(255, 255, 255, 0.1); /* Transparent white */
         backdrop-filter: blur(12px); /* Glass effect */
@@ -42,7 +42,7 @@
         text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     }
 
-    /* 3. Button Styling & Shapes */
+   
     .btn-container {
         display: flex;
         flex-direction: column;
@@ -50,7 +50,7 @@
         align-items: center;
     }
 
-    /* The "View" Button - Pill Shaped */
+    
     .pill-button {
         background: transparent;
         color: white;
@@ -115,4 +115,5 @@
     </div>
 
 </body>
+
 </html>
